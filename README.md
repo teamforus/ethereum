@@ -8,4 +8,8 @@ sudo chown forus:forus /opt/ethereum
 git clone git@github.com:teamforus/blockchain.git /opt/ethereum
 ```
 
+## Verify that a process is running:
+```
+ps ax | grep geth
+```
 
