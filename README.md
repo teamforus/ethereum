@@ -15,7 +15,8 @@ ps ax | grep geth
 
 ## Respawning of the supervisor job fails
 
-Reset the chain
+
+Reset the chain (make sure no geth process is running)
 ```
 ./scripts/CLEAN_CHAIN.sh
 ```
