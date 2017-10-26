@@ -13,3 +13,11 @@ git clone git@github.com:teamforus/blockchain.git /opt/ethereum
 ps ax | grep geth
 ```
 
+## Respawning of the supervisor job fails
+
+Reset the chain
+```
+./scripts/CLEAN_CHAIN.sh
+```
+
+or: Restart multiple times till it resolves the problem itself
