@@ -6,7 +6,11 @@ Clone the project into /opt/ethereum. If not done yet, add the ssh key as an dep
 sudo mkdir /opt/ethereum
 sudo chown forus:forus /opt/ethereum
 git clone git@github.com:teamforus/blockchain.git /opt/ethereum
+
+./scripts/INIT_CHAIN.sh
 ```
+
+and the start the supervisor scripts
 
 ## Verify that a process is running:
 ```
